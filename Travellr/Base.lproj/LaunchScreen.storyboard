@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,8 +16,30 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="travellr" translatesAutoresizingMaskIntoConstraints="NO" id="v3B-UR-VJq">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="travellr" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YzP-yW-3Ad">
+                                <rect key="frame" x="243" y="520" width="114" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="9Nm-hl-5LN"/>
+                                    <constraint firstAttribute="height" constant="30" id="pdv-KN-bA9"/>
+                                </constraints>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="v3B-UR-VJq" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="4xa-a0-ney"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="v3B-UR-VJq" secondAttribute="bottom" id="7vs-wI-WAb"/>
+                            <constraint firstAttribute="trailing" secondItem="v3B-UR-VJq" secondAttribute="trailing" id="Krr-7g-1EW"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="YzP-yW-3Ad" secondAttribute="bottom" constant="50" id="MO1-Xc-1xL"/>
+                            <constraint firstItem="v3B-UR-VJq" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="VT6-5a-PJa"/>
+                            <constraint firstItem="YzP-yW-3Ad" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="gkO-IA-nXx"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +47,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="travellr" width="1080" height="1920"/>
+    </resources>
 </document>

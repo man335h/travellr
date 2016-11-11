@@ -12,9 +12,31 @@
 		1307368B1DC3143500AD6530 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 130736891DC3143500AD6530 /* Main.storyboard */; };
 		1307368D1DC3143500AD6530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1307368C1DC3143500AD6530 /* Assets.xcassets */; };
 		130736901DC3143500AD6530 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1307368E1DC3143500AD6530 /* LaunchScreen.storyboard */; };
+		130736A31DC340A900AD6530 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1307369B1DC340A900AD6530 /* NotoSans-Bold.ttf */; };
+		130736A41DC340A900AD6530 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1307369C1DC340A900AD6530 /* NotoSans-BoldItalic.ttf */; };
+		130736A51DC340A900AD6530 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1307369D1DC340A900AD6530 /* NotoSans-Italic.ttf */; };
+		130736A61DC340A900AD6530 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1307369E1DC340A900AD6530 /* NotoSans-Regular.ttf */; };
+		130736A71DC340A900AD6530 /* NotoSansUI-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1307369F1DC340A900AD6530 /* NotoSansUI-Bold.ttf */; };
+		130736A81DC340A900AD6530 /* NotoSansUI-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 130736A01DC340A900AD6530 /* NotoSansUI-BoldItalic.ttf */; };
+		130736A91DC340A900AD6530 /* NotoSansUI-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 130736A11DC340A900AD6530 /* NotoSansUI-Italic.ttf */; };
+		130736AA1DC340A900AD6530 /* NotoSansUI-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 130736A21DC340A900AD6530 /* NotoSansUI-Regular.ttf */; };
+		130736AC1DC34BF500AD6530 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130736AB1DC34BF500AD6530 /* MaterialView.swift */; };
+		130736AF1DC34CA900AD6530 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130736AE1DC34CA900AD6530 /* Constants.swift */; };
+		130736B11DC37E7A00AD6530 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130736B01DC37E7A00AD6530 /* MaterialButton.swift */; };
+		130736B31DC3832300AD6530 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130736B21DC3832300AD6530 /* MaterialTextField.swift */; };
+		1311AB8A1DCA04F400948255 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1311AB861DCA04F400948255 /* Bolts.framework */; };
+		1311AB8B1DCA04F400948255 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1311AB871DCA04F400948255 /* FBSDKCoreKit.framework */; };
+		1311AB8C1DCA04F400948255 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1311AB881DCA04F400948255 /* FBSDKLoginKit.framework */; };
+		139C92E01DCC7264003EB68E /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139C92DF1DCC7264003EB68E /* FeedVC.swift */; };
+		139C92E21DCC732D003EB68E /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139C92E11DCC732D003EB68E /* PostCell.swift */; };
+		139C92E51DCC9E83003EB68E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139C92E41DCC9E83003EB68E /* DataService.swift */; };
+		13E8BB421DCE0CCF00D1A341 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8BB411DCE0CCF00D1A341 /* Post.swift */; };
+		13EA51221DCB09B7008E440E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13EA51211DCB09B7008E440E /* GoogleService-Info.plist */; };
+		DF4EB2D6A59372D54F3E63D7 /* Pods_Travellr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795508CCD1A771CEE03C2973 /* Pods_Travellr.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C133BC260D0ADA6A3498E19 /* Pods-Travellr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travellr.release.xcconfig"; path = "Pods/Target Support Files/Pods-Travellr/Pods-Travellr.release.xcconfig"; sourceTree = "<group>"; };
 		130736821DC3143500AD6530 /* Travellr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travellr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		130736851DC3143500AD6530 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		130736871DC3143500AD6530 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +44,28 @@
 		1307368C1DC3143500AD6530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1307368F1DC3143500AD6530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		130736911DC3143500AD6530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1307369B1DC340A900AD6530 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		1307369C1DC340A900AD6530 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		1307369D1DC340A900AD6530 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		1307369E1DC340A900AD6530 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		1307369F1DC340A900AD6530 /* NotoSansUI-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansUI-Bold.ttf"; sourceTree = "<group>"; };
+		130736A01DC340A900AD6530 /* NotoSansUI-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansUI-BoldItalic.ttf"; sourceTree = "<group>"; };
+		130736A11DC340A900AD6530 /* NotoSansUI-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansUI-Italic.ttf"; sourceTree = "<group>"; };
+		130736A21DC340A900AD6530 /* NotoSansUI-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansUI-Regular.ttf"; sourceTree = "<group>"; };
+		130736AB1DC34BF500AD6530 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		130736AE1DC34CA900AD6530 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		130736B01DC37E7A00AD6530 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		130736B21DC3832300AD6530 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		1311AB861DCA04F400948255 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		1311AB871DCA04F400948255 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		1311AB881DCA04F400948255 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		139C92DF1DCC7264003EB68E /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		139C92E11DCC732D003EB68E /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		139C92E41DCC9E83003EB68E /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		13E8BB411DCE0CCF00D1A341 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		13EA51211DCB09B7008E440E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		17E4E4B050AD2D5139F94CE8 /* Pods-Travellr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travellr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Travellr/Pods-Travellr.debug.xcconfig"; sourceTree = "<group>"; };
+		795508CCD1A771CEE03C2973 /* Pods_Travellr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Travellr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +73,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1311AB8A1DCA04F400948255 /* Bolts.framework in Frameworks */,
+				1311AB8B1DCA04F400948255 /* FBSDKCoreKit.framework in Frameworks */,
+				1311AB8C1DCA04F400948255 /* FBSDKLoginKit.framework in Frameworks */,
+				DF4EB2D6A59372D54F3E63D7 /* Pods_Travellr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +88,8 @@
 			children = (
 				130736841DC3143500AD6530 /* Travellr */,
 				130736831DC3143500AD6530 /* Products */,
+				25439E0F6025DE2058F54D0D /* Pods */,
+				677F6A460813FDF789FDE337 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +104,108 @@
 		130736841DC3143500AD6530 /* Travellr */ = {
 			isa = PBXGroup;
 			children = (
+				139C92E31DCC9E71003EB68E /* Services */,
+				130736991DC3407C00AD6530 /* Model */,
+				130736981DC3407100AD6530 /* View */,
+				130736971DC3406600AD6530 /* Controller */,
+				1311AB851DCA04B900948255 /* Frameworks */,
+				1307369A1DC3408600AD6530 /* Resources */,
+				130736AD1DC34C9700AD6530 /* Utils */,
 				130736851DC3143500AD6530 /* AppDelegate.swift */,
-				130736871DC3143500AD6530 /* ViewController.swift */,
 				130736891DC3143500AD6530 /* Main.storyboard */,
 				1307368C1DC3143500AD6530 /* Assets.xcassets */,
 				1307368E1DC3143500AD6530 /* LaunchScreen.storyboard */,
 				130736911DC3143500AD6530 /* Info.plist */,
+				13EA51211DCB09B7008E440E /* GoogleService-Info.plist */,
 			);
 			path = Travellr;
+			sourceTree = "<group>";
+		};
+		130736971DC3406600AD6530 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				130736871DC3143500AD6530 /* ViewController.swift */,
+				139C92DF1DCC7264003EB68E /* FeedVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		130736981DC3407100AD6530 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				130736AB1DC34BF500AD6530 /* MaterialView.swift */,
+				130736B01DC37E7A00AD6530 /* MaterialButton.swift */,
+				130736B21DC3832300AD6530 /* MaterialTextField.swift */,
+				139C92E11DCC732D003EB68E /* PostCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		130736991DC3407C00AD6530 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				13E8BB411DCE0CCF00D1A341 /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1307369A1DC3408600AD6530 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1307369B1DC340A900AD6530 /* NotoSans-Bold.ttf */,
+				1307369C1DC340A900AD6530 /* NotoSans-BoldItalic.ttf */,
+				1307369D1DC340A900AD6530 /* NotoSans-Italic.ttf */,
+				1307369E1DC340A900AD6530 /* NotoSans-Regular.ttf */,
+				1307369F1DC340A900AD6530 /* NotoSansUI-Bold.ttf */,
+				130736A01DC340A900AD6530 /* NotoSansUI-BoldItalic.ttf */,
+				130736A11DC340A900AD6530 /* NotoSansUI-Italic.ttf */,
+				130736A21DC340A900AD6530 /* NotoSansUI-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		130736AD1DC34C9700AD6530 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				130736AE1DC34CA900AD6530 /* Constants.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		1311AB851DCA04B900948255 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1311AB861DCA04F400948255 /* Bolts.framework */,
+				1311AB871DCA04F400948255 /* FBSDKCoreKit.framework */,
+				1311AB881DCA04F400948255 /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		139C92E31DCC9E71003EB68E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				139C92E41DCC9E83003EB68E /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		25439E0F6025DE2058F54D0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17E4E4B050AD2D5139F94CE8 /* Pods-Travellr.debug.xcconfig */,
+				0C133BC260D0ADA6A3498E19 /* Pods-Travellr.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		677F6A460813FDF789FDE337 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				795508CCD1A771CEE03C2973 /* Pods_Travellr.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 130736941DC3143500AD6530 /* Build configuration list for PBXNativeTarget "Travellr" */;
 			buildPhases = (
+				37EC0FB24216970C8F878FC2 /* [CP] Check Pods Manifest.lock */,
 				1307367E1DC3143400AD6530 /* Sources */,
 				1307367F1DC3143400AD6530 /* Frameworks */,
 				130736801DC3143400AD6530 /* Resources */,
+				5F2294C9328102EBDDC9C660 /* [CP] Embed Pods Frameworks */,
+				EF92182B90890736B3196A01 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +243,6 @@
 				TargetAttributes = {
 					130736811DC3143400AD6530 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 78G266KH44;
 					};
 				};
 			};
@@ -123,21 +269,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				130736A71DC340A900AD6530 /* NotoSansUI-Bold.ttf in Resources */,
+				130736A91DC340A900AD6530 /* NotoSansUI-Italic.ttf in Resources */,
+				130736A31DC340A900AD6530 /* NotoSans-Bold.ttf in Resources */,
 				130736901DC3143500AD6530 /* LaunchScreen.storyboard in Resources */,
+				130736A41DC340A900AD6530 /* NotoSans-BoldItalic.ttf in Resources */,
+				13EA51221DCB09B7008E440E /* GoogleService-Info.plist in Resources */,
+				130736A51DC340A900AD6530 /* NotoSans-Italic.ttf in Resources */,
 				1307368D1DC3143500AD6530 /* Assets.xcassets in Resources */,
+				130736AA1DC340A900AD6530 /* NotoSansUI-Regular.ttf in Resources */,
 				1307368B1DC3143500AD6530 /* Main.storyboard in Resources */,
+				130736A81DC340A900AD6530 /* NotoSansUI-BoldItalic.ttf in Resources */,
+				130736A61DC340A900AD6530 /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37EC0FB24216970C8F878FC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F2294C9328102EBDDC9C660 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Travellr/Pods-Travellr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF92182B90890736B3196A01 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Travellr/Pods-Travellr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1307367E1DC3143400AD6530 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				139C92E51DCC9E83003EB68E /* DataService.swift in Sources */,
+				130736B31DC3832300AD6530 /* MaterialTextField.swift in Sources */,
+				139C92E01DCC7264003EB68E /* FeedVC.swift in Sources */,
+				130736AC1DC34BF500AD6530 /* MaterialView.swift in Sources */,
 				130736881DC3143500AD6530 /* ViewController.swift in Sources */,
 				130736861DC3143500AD6530 /* AppDelegate.swift in Sources */,
+				130736AF1DC34CA900AD6530 /* Constants.swift in Sources */,
+				130736B11DC37E7A00AD6530 /* MaterialButton.swift in Sources */,
+				139C92E21DCC732D003EB68E /* PostCell.swift in Sources */,
+				13E8BB421DCE0CCF00D1A341 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,8 +459,15 @@
 		};
 		130736951DC3143500AD6530 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17E4E4B050AD2D5139F94CE8 /* Pods-Travellr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Travellr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.manishgehani.Travellr;
@@ -259,8 +477,15 @@
 		};
 		130736961DC3143500AD6530 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C133BC260D0ADA6A3498E19 /* Pods-Travellr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Travellr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.manishgehani.Travellr;
@@ -287,6 +512,7 @@
 				130736961DC3143500AD6530 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

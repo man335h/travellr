@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(true)
         if NSUserDefaults.standardUserDefaults().valueForKey(KEY_UID) != nil {
-            self.performSegueWithIdentifier(SEGUE_LOGGED_IN, sender: nil)
+            self.performSegueWithIdentifier(SEGUE_PROFILE, sender: nil)
         }
     }
 
@@ -50,7 +50,7 @@ class ViewController: UIViewController {
                         DataService.ds.createFirebaseUser((userLogin?.uid)!, user: user)
                         
                         NSUserDefaults.standardUserDefaults().setValue(userLogin?.uid, forKey: KEY_UID)
-                        self.performSegueWithIdentifier(SEGUE_LOGGED_IN, sender: nil)
+                        self.performSegueWithIdentifier(SEGUE_PROFILE, sender: nil)
                     }
                 })
                 
@@ -79,7 +79,7 @@ class ViewController: UIViewController {
                                 let user = ["provider": "password"]
                                 DataService.ds.createFirebaseUser((createdUser?.uid)!, user: user)
                             
-                                self.performSegueWithIdentifier(SEGUE_LOGGED_IN, sender: nil)
+                                self.performSegueWithIdentifier(SEGUE_PROFILE, sender: nil)
                             }
                         })
                     } else if error?.code == STATUS_INVALID_EMAIL {
@@ -90,7 +90,7 @@ class ViewController: UIViewController {
                         self.showErrorAlert("Error", msg: "\(error)")
                     }
                 } else {
-                    self.performSegueWithIdentifier(SEGUE_LOGGED_IN, sender: nil)
+                    self.performSegueWithIdentifier(SEGUE_PROFILE, sender: nil)
                 }
             })
         } else {

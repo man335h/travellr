@@ -30,6 +30,8 @@
 		139C92E01DCC7264003EB68E /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139C92DF1DCC7264003EB68E /* FeedVC.swift */; };
 		139C92E21DCC732D003EB68E /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139C92E11DCC732D003EB68E /* PostCell.swift */; };
 		139C92E51DCC9E83003EB68E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139C92E41DCC9E83003EB68E /* DataService.swift */; };
+		13B823D21DD79C7F003F51B7 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B823D11DD79C7F003F51B7 /* ProfileVC.swift */; };
+		13B823D41DD7A106003F51B7 /* MaterialImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B823D31DD7A106003F51B7 /* MaterialImage.swift */; };
 		13E8BB421DCE0CCF00D1A341 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8BB411DCE0CCF00D1A341 /* Post.swift */; };
 		13EA51221DCB09B7008E440E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13EA51211DCB09B7008E440E /* GoogleService-Info.plist */; };
 		DF4EB2D6A59372D54F3E63D7 /* Pods_Travellr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795508CCD1A771CEE03C2973 /* Pods_Travellr.framework */; };
@@ -62,6 +64,8 @@
 		139C92DF1DCC7264003EB68E /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		139C92E11DCC732D003EB68E /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		139C92E41DCC9E83003EB68E /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		13B823D11DD79C7F003F51B7 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		13B823D31DD7A106003F51B7 /* MaterialImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialImage.swift; sourceTree = "<group>"; };
 		13E8BB411DCE0CCF00D1A341 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		13EA51211DCB09B7008E440E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		17E4E4B050AD2D5139F94CE8 /* Pods-Travellr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Travellr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Travellr/Pods-Travellr.debug.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +130,7 @@
 			children = (
 				130736871DC3143500AD6530 /* ViewController.swift */,
 				139C92DF1DCC7264003EB68E /* FeedVC.swift */,
+				13B823D11DD79C7F003F51B7 /* ProfileVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -136,6 +141,7 @@
 				130736AB1DC34BF500AD6530 /* MaterialView.swift */,
 				130736B01DC37E7A00AD6530 /* MaterialButton.swift */,
 				130736B21DC3832300AD6530 /* MaterialTextField.swift */,
+				13B823D31DD7A106003F51B7 /* MaterialImage.swift */,
 				139C92E11DCC732D003EB68E /* PostCell.swift */,
 			);
 			name = View;
@@ -339,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13B823D41DD7A106003F51B7 /* MaterialImage.swift in Sources */,
 				139C92E51DCC9E83003EB68E /* DataService.swift in Sources */,
 				130736B31DC3832300AD6530 /* MaterialTextField.swift in Sources */,
 				139C92E01DCC7264003EB68E /* FeedVC.swift in Sources */,
@@ -348,6 +355,7 @@
 				130736AF1DC34CA900AD6530 /* Constants.swift in Sources */,
 				130736B11DC37E7A00AD6530 /* MaterialButton.swift in Sources */,
 				139C92E21DCC732D003EB68E /* PostCell.swift in Sources */,
+				13B823D21DD79C7F003F51B7 /* ProfileVC.swift in Sources */,
 				13E8BB421DCE0CCF00D1A341 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,28 +8,36 @@
 
 import UIKit
 
-class ProfileVC: UIViewController {
+class ProfileVC: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITextFieldDelegate {
 
+    @IBOutlet weak var profileImg: UIImageView!
+    @IBOutlet weak var userName: UITextField!
+    
+    var imgPicker: UIImagePickerController!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        imgPicker = UIImagePickerController()
+        imgPicker.delegate = self
+        userName.delegate = self
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func profileImgTapped(sender: UITapGestureRecognizer) {
+        presentViewController(imgPicker, animated: true, completion: nil)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingImage image: UIImage, editingInfo: [String : AnyObject]?) {
+        imgPicker.dismissViewControllerAnimated(true, completion: nil)
+        profileImg.image = image
     }
-    */
-
+    
+    func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
+        if string == " " {
+            return false
+        } else {
+            return true
+        }
+    }
+    
 }
